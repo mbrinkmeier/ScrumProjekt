@@ -9,9 +9,26 @@ eines Greenfoot Projektes erprobt.
 ## Vorraussetzungen
 
 - Installation von git auf dem eigenen Rechner
+- Greenfoot und das JDK
 
-## Auschecken
+## Anlegen eine lokalen Arbeitskopie (clone)
 
-## Aktualisieren
+Mit dem folgenden Befehl legen Sie eine lokale Arbeitskopie des Repositories an:
+> git clone https://github.com/mbrinkmeier/ScrumProjekt.git <directory>
+Die Arbeitskopie wird in <directory> angelegt.
 
-## Commit
+## Aktualisieren der lokalen Arbeitskopie (pull)
+
+Mit dem folgenden Befehl wird das lokale Repository aktualisiert:
+> git pull
+
+## Lokale Datei hinzufügen und bestätigen (add & commit)
+
+Mit dem folgenden Befehl wird <file> zum Projekt hinzugefügt:
+> git add <file>
+
+Anschließend muüssen alle Änderungen bestätigt werden (auch bei bereits bestehenden Dateien)
+> git commit -m "Nachricht"
+
+## Hochladen der Änderungen (push)
+> git 
