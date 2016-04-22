@@ -11,7 +11,7 @@ eines Greenfoot Projektes erprobt.
 - Installation von git auf dem eigenen Rechner
 - Greenfoot und das JDK
 
-## Anlegen eine lokalen Arbeitskopie (clone)
+## Anlegen einer lokalen Arbeitskopie (clone)
 
 Mit dem folgenden Befehl legen Sie eine lokale Arbeitskopie des Repositories an:
 
