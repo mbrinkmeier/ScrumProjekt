@@ -6,6 +6,11 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
+/**
+ * Dies ist nur ein Test (MB)
+ */
+
 public class MyWorld extends World
 {
 
