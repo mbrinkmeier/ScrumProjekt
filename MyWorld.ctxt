@@ -1,5 +1,7 @@
 #BlueJ class context
-comment0.params=
-comment0.target=MyWorld()
-comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ \n
-numComments=1
+comment0.target=MyWorld
+comment0.text=\r\n\ Dies\ ist\ nur\ ein\ Test\ (MB)\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ \r\n
+numComments=2
