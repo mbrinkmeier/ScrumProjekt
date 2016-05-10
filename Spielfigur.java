@@ -14,6 +14,22 @@ public class Spielfigur extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        
+        if(Greenfoot.isKeyDown("up")) {
+            this.setLocation(this.getX(), this.getY()-1);
+        }
+        
+        if(Greenfoot.isKeyDown("down")) {
+            this.setLocation(this.getX(), this.getY()+1);
+        }
+        
+        if(Greenfoot.isKeyDown("left")) {
+            this.setLocation(this.getX()-1, this.getY());
+        }
+        
+        if(Greenfoot.isKeyDown("right")) {
+            this.setLocation(this.getX()+1, this.getY());
+        }
+        
+    } 
 }
