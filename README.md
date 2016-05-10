@@ -22,7 +22,7 @@ Die Teilnhemer müssen sich beim bearbeiten von Tasks Arbeiten an den folgenden 
 1. Aktuelle Version aus dem Repository holen (pull)
 2. Bearbeiten/Testen der lokalen Version
 3. Neue Dateien hinzufügen (add)
-4. Commit der Änderungen mit Nachricht
+4. Bestätigen der Änderungen mit Nachricht (commit)
 5. Einspielen der Änderungen in das Repository (push)
 
 ## Anlegen einer lokalen Arbeitskopie (clone)
