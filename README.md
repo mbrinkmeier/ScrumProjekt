@@ -72,3 +72,7 @@ einspielen (pop):
 > ```git pull```
 
 > ```git stash pop```
+
+## Manueller Merge
+
+
