@@ -54,3 +54,19 @@ Die Änderungen werden in den Zweig ```<branch>``` eingefügt. Bei unserem Proje
 Regel ```master```.
 
 > ```git push origin <branch>```
+
+
+## Änderungen im Repository in die aktuelle Arbeitskopie einfügen
+
+Falls während der Arbeit an der lokalen Kopie Änderungen im globalen Repository gemacht wurden, die
+in die lokale Kopie übernommen werden sollen, kann man zuerst probieren, ob bei einem Pull ein Konflikt entsteht:
+
+> ```git pull```
+
+Wenn sich git weigert die Änderungen des Repositories einzuspielen, kann man die lokalen vorrübergehend
+rückgängig machen (stashen), die lokale Arbeitskopie aktualisieren (pull) und die lokalen Änderungen wieder
+einspielen (pop):
+
+> ```git stash```
+> ```git pull```
+> ```git stash pop```
