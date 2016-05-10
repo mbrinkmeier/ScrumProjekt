@@ -45,7 +45,7 @@ Mit dem folgenden Befehl wird <file> zum Projekt hinzugefügt:
 > ```git add <file>```
 
 Anschließend muüssen alle Änderungen bestätigt werden (auch bei bereits bestehenden Dateien)
-> ```git commit -m "Nachricht"```
+> ```git commit -m "Nachricht" <file>```
 
 ## Hochladen der Änderungen (push)
 
