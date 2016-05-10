@@ -9,7 +9,21 @@ eines Greenfoot Projektes erprobt.
 ## Vorraussetzungen
 
 - Installation von git auf dem eigenen Rechner
-- Greenfoot und das JDK
+- Greenfoot Version 3.0.2 und aufwärts und das JDK
+
+## Hinweise
+
+Wichtig ist, dass eine Greenfoot Version verwendet wird, in der die Einträge in ```project.greenfoot```
+in alphabetischer Reihenfolge gespeichert werden. Ansonsten kommt es in der Regel zu Konfilkten beim
+Commit.
+
+Die Teilnhemer müssen sich beim bearbeiten von Tasks Arbeiten an den folgenden Ablauf halten.
+
+1. Aktuelle Version aus dem Repository holen (pull)
+2. Bearbeiten/Testen der lokalen Version
+3. Neue Dateien hinzufügen (add)
+4. Commit der Änderungen mit Nachricht
+5. Einspielen der Änderungen in das Repository (push)
 
 ## Anlegen einer lokalen Arbeitskopie (clone)
 
