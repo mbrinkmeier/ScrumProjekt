@@ -68,5 +68,7 @@ rückgängig machen (stashen), die lokale Arbeitskopie aktualisieren (pull) und 
 einspielen (pop):
 
 > ```git stash```
+
 > ```git pull```
+
 > ```git stash pop```
