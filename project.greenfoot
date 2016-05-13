@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Fri May 13 12:58:45 CEST 2016
+#Fri May 13 13:06:19 CEST 2016
 target4.type=ClassTarget
 target3.height=50
 target5.height=50
@@ -23,8 +23,8 @@ version=2.8.0
 target6.type=ClassTarget
 target7.width=80
 target1.width=150
-editor.fx.0.y=33
-editor.fx.0.x=567
+editor.fx.0.y=0
+editor.fx.0.x=0
 target2.typeParameters=
 target3.showInterface=false
 target6.name=Stein
@@ -43,7 +43,7 @@ class.Stein.superclass=UnzerstoerbareBloecke
 target1.type=ClassTarget
 target7.y=70
 target7.x=70
-editor.swing.0.width=906
+editor.swing.0.width=907
 target7.name=Bloecke
 editor.swing.0.y=23
 target6.y=130

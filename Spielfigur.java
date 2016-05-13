@@ -12,9 +12,11 @@ public class Spielfigur extends Actor
      * Act - do whatever the Spielfigur wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+    public Spielfigur(){
+        this.getImage().scale(10,10);
+    }    
     public void act() 
     {
-        this.getImage().scale(10,10);
         
         if(Greenfoot.isKeyDown("up")) {
             this.setLocation(this.getX(), this.getY()-1);
