@@ -27,6 +27,6 @@ public class MyWorld extends World
                 
         Spielfigur spielfigur = new Spielfigur();
         
-        addObject(spielfigur, 2, 2);
+        addObject(spielfigur, 1, 1);
     }
 }
