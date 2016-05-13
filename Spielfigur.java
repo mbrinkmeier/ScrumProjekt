@@ -14,6 +14,7 @@ public class Spielfigur extends Actor
      */
     public void act() 
     {
+        this.getImage().scale(10,10);
         
         if(Greenfoot.isKeyDown("up")) {
             this.setLocation(this.getX(), this.getY()-1);
