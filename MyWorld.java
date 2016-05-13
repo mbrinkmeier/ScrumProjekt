@@ -22,5 +22,11 @@ public class MyWorld extends World
     {    
         // Create a new world with 50x50 cells with a cell size of 10x10 pixels.
         super(50, 50, 10); 
+        
+        
+                
+        Spielfigur spielfigur = new Spielfigur();
+        
+        addObject(spielfigur, 2, 2);
     }
 }
