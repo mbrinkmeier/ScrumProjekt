@@ -8,6 +8,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Stein extends UnzerstoerbareBloecke
 {
+    public Stein() {
+        getImage().scale(10,10);
+    }
+    
     /**
      * Act - do whatever the Stein wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
