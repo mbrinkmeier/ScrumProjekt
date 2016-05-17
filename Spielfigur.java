@@ -13,7 +13,7 @@ public class Spielfigur extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public Spielfigur(){
-        this.getImage().scale(10,10);
+        this.getImage().scale(40,40);
     }    
     public void act() 
     {

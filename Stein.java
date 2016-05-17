@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Stein extends UnzerstoerbareBloecke
 {
     public Stein() {
-        getImage().scale(10,10);
+        getImage().scale(50,50);
     }
     
     /**

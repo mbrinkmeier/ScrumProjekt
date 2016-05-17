@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Holz extends ZerstoerbareBloecke
 {
     public Holz() {
-        this.getImage().scale(10, 10);
+        this.getImage().scale(50, 50);
     }
     /**
      * Act - do whatever the Holz wants to do. This method is called whenever
