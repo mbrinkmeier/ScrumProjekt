@@ -17,22 +17,33 @@ public class Spielfigur extends Actor
     }    
     public void act() 
     {
-        
-        if(Greenfoot.isKeyDown("up")) {
+        movement();
+    } 
+    // Klasse movement steuert die Figur und prüft Kollision mit Klasse Bloecke
+    public void movement(){
+        Actor ObenRechts = getOneObjectAtOffset(1, -2, Bloecke.class);
+        Actor ObenLinks = getOneObjectAtOffset(-1, -2, Bloecke.class);
+        Actor UntenRechts = getOneObjectAtOffset(1, 2, Bloecke.class);
+        Actor UntenLinks = getOneObjectAtOffset(-1, 2, Bloecke.class);
+        Actor LinksOben = getOneObjectAtOffset(-2, -1, Bloecke.class);
+        Actor LinksUnten = getOneObjectAtOffset(-2, 1, Bloecke.class);
+        Actor RechtsOben = getOneObjectAtOffset(2, -1, Bloecke.class);
+        Actor RechtsUnten = getOneObjectAtOffset(2, 1, Bloecke.class);
+    
+      if(Greenfoot.isKeyDown("up") && ObenRechts == null && ObenLinks == null) {
             this.setLocation(this.getX(), this.getY()-1);
         }
         
-        if(Greenfoot.isKeyDown("down")) {
+        if(Greenfoot.isKeyDown("down") && UntenRechts == null && UntenLinks == null) {
             this.setLocation(this.getX(), this.getY()+1);
         }
         
-        if(Greenfoot.isKeyDown("left")) {
+        if(Greenfoot.isKeyDown("left") && LinksOben == null && LinksUnten == null) {
             this.setLocation(this.getX()-1, this.getY());
         }
         
-        if(Greenfoot.isKeyDown("right")) {
+        if(Greenfoot.isKeyDown("right") && RechtsOben == null && RechtsUnten == null) {
             this.setLocation(this.getX()+1, this.getY());
-        }
-        
-    } 
-}
+        }       
+    }
+}    
