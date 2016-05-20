@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
  * Dies ist nur ein Test (MB)
+ * Noch ein Test (MB)
  */
 
 public class MyWorld extends World
