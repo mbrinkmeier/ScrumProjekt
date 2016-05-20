@@ -6,6 +6,10 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+
+/**
+ * Test um Konflikte zu erzeugen
+ */
 public class Explosion extends Actor
 {
     /**
