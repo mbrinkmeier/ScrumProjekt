@@ -44,6 +44,10 @@ public class Spielfigur extends Actor
         
         if(Greenfoot.isKeyDown("right") && RechtsOben == null && RechtsUnten == null) {
             this.setLocation(this.getX()+1, this.getY());
-        }       
+        }
+        
+        if(Greenfoot.isKeyDown("space")){
+            this.getWorld().addObject(new Bombe(), this.getX(), this.getY());
+        }
     }
 }    
